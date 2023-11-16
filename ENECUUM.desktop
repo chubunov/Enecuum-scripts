@@ -7,4 +7,4 @@ Exec=/home/minipc/enecuum/start.sh
 Icon=/home/minipc/enecuum/enq-logo.png
 Terminal=true
 StartupNotify=false
-Path=/home/minipc/enecuum/1
+Path=/home/minipc/enecuum/
