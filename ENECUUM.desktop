@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=ENECUUM
+Comment=
+Exec=/home/minipc/enecuum/start.sh
+Icon=/home/minipc/enecuum/enq-logo.png
+Terminal=true
+StartupNotify=false
+Path=/home/minipc/enecuum/
