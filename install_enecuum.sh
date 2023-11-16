@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 read -p "Введите пароль для MySQL базы: " password
 echo
 echo
