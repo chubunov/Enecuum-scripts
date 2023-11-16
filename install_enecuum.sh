@@ -12,7 +12,5 @@ pos_command="sudo docker run -ti --name pulse_pos --link pulse_db:dbhost -p8000:
 
 eval "$db_command"
 eval "$pos_command"
-sudo docker stop pulse_pos
-sudo docker cp addon.node  pulse_pos:app/node_modules/node-randomx
-sudo docker start pulse_pos
+
 

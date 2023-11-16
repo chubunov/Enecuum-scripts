@@ -14,6 +14,7 @@ show_menu() {
     echo "7. Вывести полный лог контейнера polse_pos"
     echo "8. Удалить оба контейнера enecuum"
     echo "9. Удалить Docker"
+    echo "10. Установить мод под определенный процессор"
     echo "0. Выход"
 }
 
@@ -52,6 +53,10 @@ run_script_8() {
 run_script_9() {
     ./delete_docker.sh  
 }
+
+run_script_10() {
+    ./mods.sh  
+}
 echo
 # Main function to display menu and process user input
 main() {
@@ -71,6 +76,7 @@ echo
             7) run_script_7 ;;
             8) run_script_8 ;;
             9) run_script_9 ;;
+            10) run_script_10 ;;
             0) exit ;;
             *) echo "Не верный выбор";;
         esac
