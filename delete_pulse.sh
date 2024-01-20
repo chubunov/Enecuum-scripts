@@ -1,5 +1,5 @@
 #!/bin/bash
-
+clear
 sudo docker stop pulse_pos
 sudo docker rm pulse_pos
 sudo docker rmi enecuum/pulse_pos

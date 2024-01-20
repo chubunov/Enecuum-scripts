@@ -1,5 +1,5 @@
 #!/bin/bash
-
+clear
 echo "Хотите установить мод? (y/n)"
 read install_mod
 

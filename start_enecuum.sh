@@ -1,5 +1,5 @@
 #!/bin/bash
-
+clear
 # Запуск контейнера pulse_db
 sudo docker start pulse_db 
 

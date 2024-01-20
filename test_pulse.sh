@@ -1,5 +1,5 @@
 #!/bin/bash
-
+clear
 # Получение списка запущенных контейнеров
 container_list=$(sudo docker ps --format "{{.Names}}")
 
