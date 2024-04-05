@@ -5,7 +5,7 @@ clear
   echo "2. Очистите логи Docker-контейнеров"
   echo "3. Отмена"
 
-  read choice
+  read -p "Введите ваш выбор: " choice
 
   case $choice in
     1)
